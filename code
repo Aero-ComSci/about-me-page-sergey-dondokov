@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Dondokov.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: andale mono, monospace;
+}
+body {
+  background-color: white;
+  color: grey;
+}
+a {
+  color: black;
+}
+.dark-mode {
+  background-color: black;
+  color: grey;
+  a {
+  color: white;
+}
+}
+</style>
+</head>
+<body>
+
+<button onclick="darkmode()">Toggle dark mode</button>
+</style>
+</head>
+<body>
+
+<script>
+function darkmode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+<h1>Dondokov.com</h1>
+<p>A website created by Sergey Dondokov.</p>
+
+<h2>About me</h2>
+
+<img src="sergeydondokov.png"alt="Photograph of Sergey Dondokov as of August 2024." width="172" height="220">
+
+<div>Hello! My name is Sergey Dondokov, and I am currently a sophomore at <a href="https://ehs.dublinusd.org/" target="_blank"><i>Emerald High School</i></a>, where I am laying the groundwork for a future in which I work in either the field of Artificial Intelligence or politics. In order to support my aspirations, I plan to enroll in the appropriate Advanced Placement courses: AP Computer Science Principles and AP United States History in my junior year, followed up by AP Computer Science Applications and AP United States Government and Politics in my senior year. My interest in AI stems from its transformative potential; while it may eliminate some jobs, it also creates new opportunities, more specifically in AI maintenance and training. Additionally, my interest in history and politics has sparked a desire to explore a career in the government, although my primary focus remains on AI. After high school, I plan to apply to <a href="https://en.wikipedia.org/wiki/Tsinghua_University"target="_blank"><i>Tsinghua University</i></a> in China to study Artificial Intelligence. 
+<h3>Strengths and Personal Qualities</h3>
+<p>My strengths are:<p>
+  <ul>
+    <li>History</li>
+    <li>Learning foreign languages</li> 
+    <li>Working in a group</li>
+  </ul>
+<p>My personal qualities are:
+  <ul>
+    <li>Sociable</li>
+    <li>Organized</li> 
+    <li>Creative</li> 
+    <li>Conscientious</li> 
+    <li>Methodical</li>
+  </ul>
+<h3>Achievements:</h3>
+<ul>
+  <li>3.71 GPA in Emerald High School</li>
+  <li>Internal Affairs of the Emerald Electronics Club</li>
+  <li>Received Honor Roll 7 times from 2020-2024</li>
+</ul>
+<h3>Conclusion</h3>
+<p>In conclusion, I am a sophomore at Emerald High School with a passion for politics and technology, and I am trying to prepare for a future where I work in either of these fields. Thank you for taking your time to read through my website and learning about me. I implore you to check my website later as I will most definitely be updating this with new information.</p>
+<h2>Goodbye!</h1>
+</body>
+</html>
